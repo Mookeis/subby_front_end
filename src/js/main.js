@@ -110,8 +110,13 @@ $(function() {
     $form_signup.find('input[type="email"]').toggleClass('has-error').next('span').toggleClass('is-visible');
   });
 */
-
-
+// smooth scrolling
+  $('.scroll-btn.right-scroll').on('click', function(e){
+    $('#image-gallery').animate({scrollLeft: '+=500'}, 800, 'linear');
+  });
+  $('.scroll-btn.left-scroll').on('click', function(e){
+    $('#image-gallery').animate({scrollLeft: '-=500'}, 800, 'linear');
+  });
 });
 
 

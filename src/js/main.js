@@ -17,7 +17,6 @@ $(function() {
   document.getElementById("end-date").setAttribute("min", today);
   document.getElementById("start-date").setAttribute("value", today);
   document.getElementById("end-date").setAttribute("value", today);
-
   // Login/Sign-up Model
   let $form_model = $('.login-signup-model');
   let $form_login = $form_model.find('#login-button');
